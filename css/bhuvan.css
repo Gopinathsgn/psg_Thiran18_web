@@ -1,0 +1,25 @@
+.logo1 {
+    height: auto;
+    width: auto;
+ /*   margin: 50vh auto; */
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .logo1 img {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+  }
+  
+  .logo1.animated1 {
+      -webkit-animation: rotate 1s linear 1;
+  }
+  
+  
+  @-webkit-keyframes rotate {
+      from { -webkit-transform: rotateY(0deg);}
+      50% { -webkit-transform: rotateY(180deg);filter:blur(1px);translate(10px)}
+      to{ -webkit-transform: rotateY(360deg);}
+  }

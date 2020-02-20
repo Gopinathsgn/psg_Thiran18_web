@@ -1,0 +1,13 @@
+body {
+	width:100%;
+	margin: 0;
+	padding: 0;
+	background-color:#5c8a8a;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 14px;
+}
+#name ,#footer p,.post .title 
+{
+color:#20D080;
+}
+
